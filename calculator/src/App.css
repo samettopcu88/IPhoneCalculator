@@ -19,15 +19,39 @@
 .answer-section {
   height: 25%;
   width: 85%;
-  background-color: red;
   display: flex;
   align-items: end;
   justify-content: flex-end;
   padding: 0;
 }
 
+.answer {
+
+  color: white;
+  font-weight: 300;
+  font-size: 70px;
+  margin: 20px 0;
+
+}
+
 .button-section {
   height: 75%;
   width: 88%;
-  background-color: blue;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button-row {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calculator-button {
+  width: 72px;
+  height: 72px;
+  background-color: orange;
+  border-radius: 50px;
 }
