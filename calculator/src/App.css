@@ -52,6 +52,10 @@
 .calculator-button {
   background-color: orange;
   border-radius: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .circle {
@@ -60,10 +64,20 @@
 }
 
 .rectangle {
-  width: 144px;
+  width: 114px;
   height: 72px;
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
 }
 
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: #1c1c1c;
+}
 
 .orange {
  background-color: #ff9500;
@@ -75,4 +89,9 @@
 
 .light-gray {
   background-color: #d4d4d2;
+}
+
+.button-text {
+  font-size: 27px;  
+  
 }
