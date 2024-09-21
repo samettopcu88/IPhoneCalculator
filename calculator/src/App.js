@@ -20,33 +20,33 @@ const Calculator = () => {
       <div className="button-section">
 
         <div className="button-row"> 
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
+          <CalculatorButton shape="circle" color="light-gray" />
+          <CalculatorButton shape="circle" color="light-gray"/>
+          <CalculatorButton shape="circle" color="light-gray"/>
+          <CalculatorButton shape="circle" color="orange"/>
         </div>
         <div className="button-row"> 
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="orange"/>
         </div>
         <div className="button-row"> 
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="orange"/>
         </div>
         <div className="button-row"> 
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="orange"/>
         </div>
         <div className="button-row"> 
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
-          <CalculatorButton shape="circle" />
+          <CalculatorButton shape="rectangle" color="gray"/>
+          <CalculatorButton shape="circle" color="gray"/>
+          <CalculatorButton shape="circle" color="orange"/>
         </div>
       </div>
 
@@ -57,10 +57,11 @@ const Calculator = () => {
 
 const CalculatorButton = ({color, shape}) => {
   return(
-    <div className={"calculator-button ${color] ${shape} "}>
+    <div className={`calculator-button ${color} ${shape}`}>
 
     </div>
   )
 }
+
 
 export default App;
