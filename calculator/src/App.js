@@ -33,7 +33,17 @@ const Calculator = () => {
   }
 
   const handleOperationClick = (operation) => {
-    setInput(`${input}${operation}`)
+    const sections = input.split(/([+\-*/])/);
+    const last_element = sections[sections.length-1];
+   
+    if ('+-*/'.includes(last_element)){
+      const input_removed_last = sections.slice(0,-2).join('')
+      setInput(`${input_removed_last}${operation}`)
+
+    }else{
+      setInput(`${input}${operation}`)
+      handleEquals(`${input}${operation}`)
+    }
   }
 
   const handleEquals = (input) => {
