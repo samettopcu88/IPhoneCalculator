@@ -1,15 +1,15 @@
 # iPhone Calculator Clone
 
-Bu proje, iPhone'un varsayılan hesap makinesi uygulamasının bir klonudur. HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
+This project is a clone of the default iPhone calculator application. It is built using HTML, CSS, and JavaScript.
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
-- HTML5
-- CSS3
+- HTML5  
+- CSS3  
 - JavaScript (Vanilla JS)
 
-## Özellikler
+## Features
 
-- Temel aritmetik işlemler: toplama, çıkarma, çarpma, bölme
-- Gerçek zamanlı hesaplama
-- iPhone hesap makinesi arayüzüne benzer tasarım
+- Basic arithmetic operations: addition, subtraction, multiplication, division  
+- Real-time calculation  
+- UI design similar to the iPhone calculator
