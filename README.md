@@ -4,6 +4,7 @@ This project is a clone of the default iPhone calculator application. It is buil
 
 ## Technologies Used
 
+- React
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla JS)
